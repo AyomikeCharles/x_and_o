@@ -1,0 +1,64 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+}
+.wrapper{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.App{
+	display: grid;
+	margin-left: auto;
+	margin-right: auto;
+	grid-gap: 5px;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 3fr 3fr 3fr;
+	height: 300px;
+	width: 300px;
+}
+
+h1{
+	color: #fff;
+	width: 30%;
+
+	font-size: 1.5rem;
+	margin: 1rem auto;
+	border: 0.2em solid #fff;
+	border-radius: 1rem;
+	box-shadow: 0 0 .2rem #fff,
+				0 0 .2rem #fff,
+				0 0 .2rem #bc13fe,
+				0 0 0.8rem #bc13fe,
+				0 0 2.8rem #bc13fe,
+				inset 0 0 1.3rem #bc13fe;
+	padding: 1rem;
+}
+
+h3{
+	color: #fff;
+}
+
+button{
+	padding: 15px;
+	background-image: linear-gradient(to right, #bc13fe,rebeccapurple);
+	border: none;
+	color: white;
+	border-radius: 4px;
+	width: 130px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.bt{
+	position: absolute;
+	z-index: 100000;
+	margin: 0px -53px;
+}
+
+@media(max-width: 795.98px){
+	h1{
+		width: 80%;
+	}
+}
