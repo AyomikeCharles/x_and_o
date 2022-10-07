@@ -2,7 +2,7 @@
   "name": "x_and_o",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ayomikecharles.github.io",
+  "homepage": "https://ayomikecharles.github.io/x_and_o",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^18.2.0",
